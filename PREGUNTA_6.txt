@@ -1,0 +1,56 @@
+Sudo apt-get update
+Sudo apt-get install haskell-platform
+ghc –help
+ghci
+
+lista=[1,2,3,4]
+lista
+2:lista
+lista++lista
+all even[2,4,6]
+all even[2,3,6]
+(1::Int)+(2::Int)
+
+funciones
+suma x y =x+y
+suma 3 4
+
+ingresar al directorio
+:load sumita.hs
+sumita 3 8
+
+factorial de un numero
+product n=factorial [1..n]
+
+let resta x y =x-y
+resta 4 5
+
+
+(flip resta) 4 5
+
+foldl (+) 2 [1,2,3,4]
+foldr (+)2 [1,2,3,4]
+
+
+archivos
+sumita.hs
+sumita ::Int ->Int ->Int
+sumita x y =x+y
+
+resta.hs
+resta ::Int ->Int ->Int
+resta x y =x-y
+
+factorial.hs
+factorial::Integer -> Integer
+factorial n=product[1..n]
+
+factorial2.hs
+factorial2::Integer -> Integer
+factorial2 n=foldl (*) 1 [2..n]
+
+
+
+hola" ++"mundo"
+words "hola mundo"
+map show "abcdefg"
